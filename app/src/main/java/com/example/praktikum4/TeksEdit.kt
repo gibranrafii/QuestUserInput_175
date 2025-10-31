@@ -42,4 +42,7 @@ fun FormDataDiri(modifier: Modifier){
 
     val gender:List<String> = listOf("Laki-laki","Perempuan")
 
+    Column {
+
+    }
 }
