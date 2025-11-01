@@ -53,6 +53,10 @@ fun FormUserInput (modifier: Modifier) {
             .background(colorResource(id = R.color.teal_700)), // blom fix warna nya
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Box(
 
+        ) {
+
+        }
     }
 }
