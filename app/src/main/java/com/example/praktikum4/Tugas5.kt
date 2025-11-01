@@ -54,7 +54,11 @@ fun FormUserInput (modifier: Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Box(
-
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(120.dp)
+                .padding(top = 30.dp)
+                .background(colorResource(R.color.teal_200))
         ) {
 
         }
