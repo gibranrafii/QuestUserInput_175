@@ -47,7 +47,12 @@ fun FormUserInput (modifier: Modifier) {
     val gender:List<String> = listOf("Laki-Laki", "Perempuan")
     val kawin:List<String> = listOf("Single", "Taken", "HTS")
 
-    Column {
+    Column (
+        modifier = Modifier
+            .fillMaxSize()
+            .background(colorResource(id = R.color.teal_700)), // blom fix warna nya
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
 
     }
 }
