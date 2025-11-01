@@ -84,6 +84,19 @@ fun FormUserInput (modifier: Modifier) {
                 modifier = Modifier
                     .padding(top = 10.dp, start = 10.dp)
             )
+            OutlinedTextField(
+                value = textNama,
+                singleLine = true,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(start = 12.dp, end = 12.dp),
+
+                label = { Text(text = "Isian Nama Lengkap") },
+
+                onValueChange = {
+                    textNama = it
+                }
+            )
         }
     }
 }
