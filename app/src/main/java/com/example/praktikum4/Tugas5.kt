@@ -132,6 +132,24 @@ fun FormUserInput (modifier: Modifier) {
                 modifier = Modifier
                     .padding(top = 10.dp, start = 10.dp)
             )
+            Column {
+                kawin.forEach { item ->
+                    Row(
+                        modifier = Modifier.selectable(
+                        selected = textSP == item,
+
+                        onClick = { textSP = item }
+                    ), verticalAlignment = Alignment.CenterVertically) {
+                        RadioButton(
+                            selected = textSP == item,
+
+                            onClick = {
+                                textSP = item
+                            })
+                        Text(item)
+                    }
+                }
+            }
         }
     }
 }
