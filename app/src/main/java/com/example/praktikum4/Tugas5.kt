@@ -77,7 +77,13 @@ fun FormUserInput (modifier: Modifier) {
                 .fillMaxWidth()
                 .padding(start = 12.dp, end = 12.dp, top = 15.dp)
         ) {
-
+            Text(
+                text = "NAMA LENGKAP",
+                fontSize = 18.sp,
+                color = Color.Black,
+                modifier = Modifier
+                    .padding(top = 10.dp, start = 10.dp)
+            )
         }
     }
 }
