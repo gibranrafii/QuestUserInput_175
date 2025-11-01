@@ -47,4 +47,7 @@ fun FormUserInput (modifier: Modifier) {
     val gender:List<String> = listOf("Laki-Laki", "Perempuan")
     val kawin:List<String> = listOf("Single", "Taken", "HTS")
 
+    Column {
+
+    }
 }
